@@ -38,6 +38,7 @@ This project features an interactive movie carousel where users can navigate thr
 ![hover](https://github.com/user-attachments/assets/5e6c3348-298c-4387-a33d-da3fc7555bcc)
 *Description of Screenshot 2*
 
+![contact-me](https://github.com/user-attachments/assets/ad1947ce-d5a6-40f6-94e0-413258e3d099)
 ## Contributing
 
 1. Fork the repository.
