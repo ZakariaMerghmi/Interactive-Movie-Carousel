@@ -33,7 +33,14 @@ This project features an interactive movie carousel where users can navigate thr
 ## Screenshots
 
 ![main](https://github.com/user-attachments/assets/503df10d-8b6d-40cf-b2e3-53404dea5156)
-*Description of Screenshot 1*
+Description: This screenshot showcases the main view of the movie carousel. The interface features a central carousel displaying movie images with navigation buttons on either side for browsing through different images. Key elements include:
+
+Carousel Images: Rotates through movie posters with smooth transitions.
+Navigation Buttons: "Next" and "Previous" buttons allow users to move between images.
+Details Section: Provides information about the selected movie, such as title, year, age rating, category, and a brief description.
+Hover Effects: Interactive hover effects are applied to navigation links and social media icons based on the selected movie.
+Background Update: The background changes dynamically to match the selected movie’s theme.
+This visual provides an overview of how the carousel integrates with the movie details and interactive features.
 
 ![hover](https://github.com/user-attachments/assets/5e6c3348-298c-4387-a33d-da3fc7555bcc)
 *Description of Screenshot 2*
