@@ -1,0 +1,387 @@
+/* General Reset and Styling */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url('Movies/bg-65 copy.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: darken;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    height: 100vh;
+    transition: all ease 0.5s;
+}
+
+/* Navigation Bar */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(2px);
+    position: fixed;
+    width: 100%;
+    height: 10%;
+    top: 0;
+    border-radius: 5px;
+}
+
+.siteName{
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+    margin-left: 25px;
+    transition: all 0.5s ease;
+}
+nav h1:hover{
+    
+    cursor: pointer;
+    font-size: 27px;
+}
+
+.options {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    left: 180px;
+}
+
+.option{
+    color: white;
+    font-size: 17px;
+    font-weight: 700;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    
+}
+
+.options a:hover {
+    font-size: 20px;
+    transition: all ease 0.5s;
+}
+.house{
+    position: relative;
+    right: 60px;
+}
+.adults{
+    position: relative;
+    right: 20px;
+}
+.kids{
+    position: relative;
+    left: 10px;
+}
+.trend{
+    position: relative;
+    left: 40px;
+}
+.My-list{
+    position: relative;
+    left: 80px;
+}
+.search {
+    width: 200px;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    padding: 0 10px;
+    margin-right: 20px;
+    position: relative;
+    left: 200px;
+    text-transform: capitalize;
+    font-weight: 300 ;
+}
+
+.search-btn {
+    background-color: transparent;
+    border: none;
+    color: black;
+    cursor: pointer;
+    margin-right: 20px;
+    position: relative;
+    right: 170px;
+}
+
+/* Description Section */
+.description {
+    padding: 120px 50px 50px 50px;
+    /* Padding adjusted to avoid overlap with fixed nav */
+}
+
+.description img {
+    width: 200px;
+    height: 100px;
+    margin-bottom: 20px;
+    transition: all ease 0.5s;
+}
+
+.sub-titels {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.sub-titels h1 {
+    font-size: 16px;
+    margin: 0;
+}
+
+.age {
+    background-color: orange;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 14px;
+    transition: all ease 0.5s;
+}
+.category{
+    transition: all ease 0.5s;
+}
+.duration{
+    transition: all ease 0.5s;
+}
+.description p {
+    margin-bottom: 20px;
+    line-height: 1.5;
+    transition: all ease 0.5s;
+    height: 200px;
+    width: 700px;
+}
+a{
+    text-decoration: none;
+}
+/* Buttons */
+button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.watch {
+    background-color: orange;
+    color: white;
+    transition: all 0.5s ease;
+    height: 40px;
+    width: 120px;
+}
+.watch h1{
+    font-weight: 100;
+    font-size: 22px;
+    position: relative;
+    left: 10px;
+}
+.watch:hover{
+    transform: scale(0.9);
+}
+.watch:active{
+    transform:  scale(0.8);
+}
+.fa-play{
+    position: relative;
+    right: 70px;
+    color: white;
+}
+.my-list {
+    background-color: rgba(255, 255, 255, 0.2);
+    color: white;
+    height: 40px;
+    width: 120px;
+    position: relative;
+    bottom: 40px;
+    left: 140px;
+    transition: all 0.5s ease;
+}
+
+.my-list:hover {
+    background-color: white;
+    color: black;
+    transform: scale(0.9);
+}
+.my-list:active{
+    transform: scale(0.8);
+}
+.my-list h1{
+    font-weight: 100;
+    font-size: 21px;
+    position: relative;
+    left: 10px;
+}
+.fa-plus{
+    position: relative;
+    right: 75px;
+}
+.Trailer {
+    background-color: transparent;
+    color: white;
+    position: relative;
+    bottom: 15px;
+    right: 20px;
+}
+
+.Trailer i {
+    margin-right: 10px;
+    font-size: 24px;
+}
+
+/* Carousel */
+.carousel-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.3);
+    position: relative;
+    bottom: 550px;
+    left: 870px;
+    height: fit-content;
+    width: 400px;
+    overflow: hidden;
+    ; /* Ensure no overflow */
+}
+
+.carousel-items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    position: relative;
+    left: 540px;
+    height: fit-content;
+}
+.start{
+    display: flex;
+}
+/* Carousel Item Styles */
+.transition{
+   opacity: 1;
+   transform:scale(1.1) ;
+   z-index: 5;
+}
+.op1 ,.op2 , .op3 , .op4 , .op5{
+    height: 230px;
+    width: 180px;
+    opacity: 0.7;
+    z-index: 1;
+}
+/* Contact Buttons */
+.contact {
+    position: fixed;
+    bottom: 1px;
+    padding: 0 400px;
+    display: flex;
+    gap: 10px;
+    background-color: transparent;
+    backdrop-filter: blur(2px);
+    width: 100%;
+}
+.contact a{
+    position: relative;
+    left: 200px;
+}
+.contact button {
+    font-size: 25px;
+    color: white;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.social-media-red{
+    color: red;
+}
+.social-media-green{
+    color: green;
+}
+.social-media-orange{
+    color: orange;
+}
+.next-btn{
+    position: absolute;
+    top: 450px;
+    left: 1300px;
+}
+.prv-btn{
+    position: absolute;
+    top: 450px;
+    left: 800px;
+}
+.tank{
+    background-image: url(Movies/bg-the-tank.jpeg);
+}
+.sixty-five{
+    background-image: url(Movies/bg-65.jpeg);
+}
+.black-demon{
+    background-image: url(Movies/bg-the-black-demon.jpeg);
+}
+.covenant{
+    background-image: url(Movies/bg-the-covenant.jpeg);
+}
+.little-mermaid{
+    background-image: url(Movies/bg-little-mermaid.jpg);
+}
+.orange{
+    background-color: orange;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 14px;
+    transition: all ease 0.5s;
+}
+.green{
+    background-color: green;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 14px;
+    transition: all ease 0.5s;
+}
+.red{
+    background-color: red;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 14px;
+    transition: all ease 0.5s;
+}
+.orangeHover{
+    color: orange;
+    cursor: pointer;
+    font-size: 27px;
+}
+.redHover{
+    color:red;
+    cursor: pointer;
+    font-size: 27px;
+}
+.greenHover{
+    color: green;
+    cursor: pointer;
+    font-size: 27px;
+}
+.orangeNav{
+    color: orange;
+    font-size: 20px;
+    transition: all ease 0.5s;
+}
+.redNav{
+    color: red;
+    font-size: 20px;
+    transition: all ease 0.5s;
+}
+.greenNav{
+    color: green;
+    font-size: 20px;
+    transition: all ease 0.5s;
+}
