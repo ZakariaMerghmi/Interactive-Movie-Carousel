@@ -1,4 +1,4 @@
-"# Interactive-Movie-Carousel" 
+
 # Movie Carousel Project
 
 ## Description
@@ -32,7 +32,7 @@ This project features an interactive movie carousel where users can navigate thr
 
 ## Screenshots
 
-![Screenshot 1](path/to/screenshot1.png)
+![main](https://github.com/user-attachments/assets/503df10d-8b6d-40cf-b2e3-53404dea5156)
 *Description of Screenshot 1*
 
 ![Screenshot 2](path/to/screenshot2.png)
