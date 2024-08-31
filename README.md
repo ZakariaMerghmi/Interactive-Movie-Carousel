@@ -40,10 +40,24 @@ This project features an interactive movie carousel where users can navigate thr
 - **Details Section:** Provides information about the selected movie, such as title, year, age rating, and description.
 - **Hover Effects:** Interactive hover effects are applied to navigation links and social media icons based on the selected movie.
 - **Background Update:** The background changes dynamically to match the selected movie’s theme.
+
+
 ![hover](https://github.com/user-attachments/assets/5e6c3348-298c-4387-a33d-da3fc7555bcc)
-*Description of Screenshot 2*
+**Description:** This screenshot highlights the hover effects applied to various elements in the movie carousel interface. Key features include:
+
+- **Navigation Links:** The hover effect on navigation links (e.g., "Home," "About," etc.) changes their appearance, reflecting the current movie's theme. In this case, the links are styled with an orange hover effect.
+- **Social Media Icons:** The hover effect on social media icons changes their color, providing visual feedback when users interact with them.
+- **Dynamic Styles:** Different colors and styles are applied based on the selected movie, ensuring a cohesive and engaging user experience.
+
 
 ![contact-me](https://github.com/user-attachments/assets/ad1947ce-d5a6-40f6-94e0-413258e3d099)
+**Description:** This screenshot displays the "Contact Me" section of the project. It features:
+
+- **Contact Information:** The section includes details on how users can get in touch with the project maintainer.
+- **Social Media Links:** Provides links to social media profiles or other contact methods.
+- **Visual Design:** The design is consistent with the project's overall theme, ensuring a seamless user experience.
+
+
 ## Contributing
 
 1. Fork the repository.
