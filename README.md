@@ -33,7 +33,7 @@ This project features an interactive movie carousel where users can navigate thr
 ## Screenshots
 
 ![main](https://github.com/user-attachments/assets/503df10d-8b6d-40cf-b2e3-53404dea5156)
-Description: This screenshot showcases the main view of the movie carousel. The interface features a central carousel displaying movie images with navigation buttons on either side for browsing through different images. Key elements include:
+* Description: This screenshot showcases the main view of the movie carousel. The interface features a central carousel displaying movie images with navigation buttons on either side for browsing through different images. Key elements include:
 
 Carousel Images: Rotates through movie posters with smooth transitions.
 Navigation Buttons: "Next" and "Previous" buttons allow users to move between images.
